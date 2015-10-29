@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F94D3C641BE2A69A00128330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C631BE2A69A00128330 /* AppDelegate.swift */; };
+		F94D3C661BE2A69A00128330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C651BE2A69A00128330 /* ViewController.swift */; };
+		F94D3C691BE2A69A00128330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C671BE2A69A00128330 /* Main.storyboard */; };
+		F94D3C6C1BE2A69A00128330 /* Choregos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C6A1BE2A69A00128330 /* Choregos.xcdatamodeld */; };
+		F94D3C6E1BE2A69A00128330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C6D1BE2A69A00128330 /* Assets.xcassets */; };
+		F94D3C711BE2A69A00128330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C6F1BE2A69A00128330 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F94D3C601BE2A69A00128330 /* Choregos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choregos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F94D3C631BE2A69A00128330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F94D3C651BE2A69A00128330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F94D3C681BE2A69A00128330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F94D3C6B1BE2A69A00128330 /* Choregos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Choregos.xcdatamodel; sourceTree = "<group>"; };
+		F94D3C6D1BE2A69A00128330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F94D3C701BE2A69A00128330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F94D3C721BE2A69A00128330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F94D3C5D1BE2A69A00128330 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F94D3C571BE2A69A00128330 = {
+			isa = PBXGroup;
+			children = (
+				F94D3C621BE2A69A00128330 /* Choregos */,
+				F94D3C611BE2A69A00128330 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F94D3C611BE2A69A00128330 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F94D3C601BE2A69A00128330 /* Choregos.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F94D3C621BE2A69A00128330 /* Choregos */ = {
+			isa = PBXGroup;
+			children = (
+				F94D3C631BE2A69A00128330 /* AppDelegate.swift */,
+				F94D3C651BE2A69A00128330 /* ViewController.swift */,
+				F94D3C671BE2A69A00128330 /* Main.storyboard */,
+				F94D3C6D1BE2A69A00128330 /* Assets.xcassets */,
+				F94D3C6F1BE2A69A00128330 /* LaunchScreen.storyboard */,
+				F94D3C721BE2A69A00128330 /* Info.plist */,
+				F94D3C6A1BE2A69A00128330 /* Choregos.xcdatamodeld */,
+			);
+			path = Choregos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F94D3C5F1BE2A69A00128330 /* Choregos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F94D3C751BE2A69A00128330 /* Build configuration list for PBXNativeTarget "Choregos" */;
+			buildPhases = (
+				F94D3C5C1BE2A69A00128330 /* Sources */,
+				F94D3C5D1BE2A69A00128330 /* Frameworks */,
+				F94D3C5E1BE2A69A00128330 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Choregos;
+			productName = Choregos;
+			productReference = F94D3C601BE2A69A00128330 /* Choregos.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F94D3C581BE2A69A00128330 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Manifest Media ltd";
+				TargetAttributes = {
+					F94D3C5F1BE2A69A00128330 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = F94D3C5B1BE2A69A00128330 /* Build configuration list for PBXProject "Choregos" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F94D3C571BE2A69A00128330;
+			productRefGroup = F94D3C611BE2A69A00128330 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F94D3C5F1BE2A69A00128330 /* Choregos */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F94D3C5E1BE2A69A00128330 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94D3C711BE2A69A00128330 /* LaunchScreen.storyboard in Resources */,
+				F94D3C6E1BE2A69A00128330 /* Assets.xcassets in Resources */,
+				F94D3C691BE2A69A00128330 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F94D3C5C1BE2A69A00128330 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F94D3C6C1BE2A69A00128330 /* Choregos.xcdatamodeld in Sources */,
+				F94D3C661BE2A69A00128330 /* ViewController.swift in Sources */,
+				F94D3C641BE2A69A00128330 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F94D3C671BE2A69A00128330 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94D3C681BE2A69A00128330 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F94D3C6F1BE2A69A00128330 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F94D3C701BE2A69A00128330 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F94D3C731BE2A69A00128330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F94D3C741BE2A69A00128330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F94D3C761BE2A69A00128330 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Choregos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.mediamanifest.Choregos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F94D3C771BE2A69A00128330 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Choregos/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = uk.mediamanifest.Choregos;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F94D3C5B1BE2A69A00128330 /* Build configuration list for PBXProject "Choregos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94D3C731BE2A69A00128330 /* Debug */,
+				F94D3C741BE2A69A00128330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F94D3C751BE2A69A00128330 /* Build configuration list for PBXNativeTarget "Choregos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F94D3C761BE2A69A00128330 /* Debug */,
+				F94D3C771BE2A69A00128330 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F94D3C6A1BE2A69A00128330 /* Choregos.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F94D3C6B1BE2A69A00128330 /* Choregos.xcdatamodel */,
+			);
+			currentVersion = F94D3C6B1BE2A69A00128330 /* Choregos.xcdatamodel */;
+			path = Choregos.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F94D3C581BE2A69A00128330 /* Project object */;
+}
