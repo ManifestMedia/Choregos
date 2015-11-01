@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		F94D3C641BE2A69A00128330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C631BE2A69A00128330 /* AppDelegate.swift */; };
-		F94D3C661BE2A69A00128330 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C651BE2A69A00128330 /* ViewController.swift */; };
 		F94D3C691BE2A69A00128330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C671BE2A69A00128330 /* Main.storyboard */; };
-		F94D3C6C1BE2A69A00128330 /* Choregos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C6A1BE2A69A00128330 /* Choregos.xcdatamodeld */; };
-		F94D3C6E1BE2A69A00128330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C6D1BE2A69A00128330 /* Assets.xcassets */; };
 		F94D3C711BE2A69A00128330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C6F1BE2A69A00128330 /* LaunchScreen.storyboard */; };
+		F94D3C791BE2BF0800128330 /* SpendController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C781BE2BF0800128330 /* SpendController.swift */; };
+		F94D3C7D1BE2F60800128330 /* CategoriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C7C1BE2F60800128330 /* CategoriesController.swift */; };
+		F94D3C811BE3B64000128330 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C801BE3B64000128330 /* CategoryCollectionViewCell.swift */; };
+		F94D3C831BE3BE8400128330 /* ExpenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C821BE3BE8400128330 /* ExpenseTableViewCell.swift */; };
+		F94D3C851BE3BE9F00128330 /* ExpensesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C841BE3BE9F00128330 /* ExpensesTableViewController.swift */; };
+		F94D3C881BE3C8F300128330 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C871BE3C8F300128330 /* Assets.xcassets */; };
+		F94D3C941BE5124D00128330 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C901BE5124D00128330 /* Category.swift */; };
+		F94D3C961BE5124D00128330 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C921BE5124D00128330 /* Expense.swift */; };
+		F94D3C9A1BE53E6A00128330 /* Choregos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C981BE53E6A00128330 /* Choregos.xcdatamodeld */; };
+		F94D3CA01BE6944200128330 /* ExpensesTableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C9F1BE6944200128330 /* ExpensesTableViewHeaderCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F94D3C601BE2A69A00128330 /* Choregos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choregos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94D3C631BE2A69A00128330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F94D3C651BE2A69A00128330 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F94D3C681BE2A69A00128330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F94D3C6B1BE2A69A00128330 /* Choregos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Choregos.xcdatamodel; sourceTree = "<group>"; };
-		F94D3C6D1BE2A69A00128330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F94D3C701BE2A69A00128330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F94D3C721BE2A69A00128330 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94D3C781BE2BF0800128330 /* SpendController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpendController.swift; sourceTree = "<group>"; };
+		F94D3C7C1BE2F60800128330 /* CategoriesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesController.swift; sourceTree = "<group>"; };
+		F94D3C801BE3B64000128330 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CategoryCollectionViewCell.swift; path = ../CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		F94D3C821BE3BE8400128330 /* ExpenseTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseTableViewCell.swift; sourceTree = "<group>"; };
+		F94D3C841BE3BE9F00128330 /* ExpensesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesTableViewController.swift; sourceTree = "<group>"; };
+		F94D3C871BE3C8F300128330 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F94D3C901BE5124D00128330 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		F94D3C921BE5124D00128330 /* Expense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		F94D3C991BE53E6A00128330 /* Choregos.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Choregos.xcdatamodel; sourceTree = "<group>"; };
+		F94D3C9F1BE6944200128330 /* ExpensesTableViewHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpensesTableViewHeaderCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,38 @@
 		F94D3C621BE2A69A00128330 /* Choregos */ = {
 			isa = PBXGroup;
 			children = (
-				F94D3C631BE2A69A00128330 /* AppDelegate.swift */,
-				F94D3C651BE2A69A00128330 /* ViewController.swift */,
-				F94D3C671BE2A69A00128330 /* Main.storyboard */,
-				F94D3C6D1BE2A69A00128330 /* Assets.xcassets */,
+				F94D3C971BE5127A00128330 /* Models */,
+				F94D3C861BE3BEA500128330 /* Views */,
 				F94D3C6F1BE2A69A00128330 /* LaunchScreen.storyboard */,
+				F94D3C631BE2A69A00128330 /* AppDelegate.swift */,
 				F94D3C721BE2A69A00128330 /* Info.plist */,
-				F94D3C6A1BE2A69A00128330 /* Choregos.xcdatamodeld */,
+				F94D3C871BE3C8F300128330 /* Assets.xcassets */,
 			);
 			path = Choregos;
+			sourceTree = "<group>";
+		};
+		F94D3C861BE3BEA500128330 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F94D3C671BE2A69A00128330 /* Main.storyboard */,
+				F94D3C781BE2BF0800128330 /* SpendController.swift */,
+				F94D3C7C1BE2F60800128330 /* CategoriesController.swift */,
+				F94D3C801BE3B64000128330 /* CategoryCollectionViewCell.swift */,
+				F94D3C841BE3BE9F00128330 /* ExpensesTableViewController.swift */,
+				F94D3C9F1BE6944200128330 /* ExpensesTableViewHeaderCell.swift */,
+				F94D3C821BE3BE8400128330 /* ExpenseTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F94D3C971BE5127A00128330 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F94D3C981BE53E6A00128330 /* Choregos.xcdatamodeld */,
+				F94D3C901BE5124D00128330 /* Category.swift */,
+				F94D3C921BE5124D00128330 /* Expense.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +136,7 @@
 				TargetAttributes = {
 					F94D3C5F1BE2A69A00128330 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = XU5U88DJX3;
 					};
 				};
 			};
@@ -126,7 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F94D3C711BE2A69A00128330 /* LaunchScreen.storyboard in Resources */,
-				F94D3C6E1BE2A69A00128330 /* Assets.xcassets in Resources */,
+				F94D3C881BE3C8F300128330 /* Assets.xcassets in Resources */,
 				F94D3C691BE2A69A00128330 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +176,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F94D3C6C1BE2A69A00128330 /* Choregos.xcdatamodeld in Sources */,
-				F94D3C661BE2A69A00128330 /* ViewController.swift in Sources */,
+				F94D3C9A1BE53E6A00128330 /* Choregos.xcdatamodeld in Sources */,
+				F94D3C961BE5124D00128330 /* Expense.swift in Sources */,
+				F94D3C851BE3BE9F00128330 /* ExpensesTableViewController.swift in Sources */,
+				F94D3C831BE3BE8400128330 /* ExpenseTableViewCell.swift in Sources */,
+				F94D3C811BE3B64000128330 /* CategoryCollectionViewCell.swift in Sources */,
+				F94D3C791BE2BF0800128330 /* SpendController.swift in Sources */,
+				F94D3C941BE5124D00128330 /* Category.swift in Sources */,
+				F94D3CA01BE6944200128330 /* ExpensesTableViewHeaderCell.swift in Sources */,
+				F94D3C7D1BE2F60800128330 /* CategoriesController.swift in Sources */,
 				F94D3C641BE2A69A00128330 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Choregos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.mediamanifest.Choregos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -262,10 +310,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Choregos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.mediamanifest.Choregos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -292,12 +343,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		F94D3C6A1BE2A69A00128330 /* Choregos.xcdatamodeld */ = {
+		F94D3C981BE53E6A00128330 /* Choregos.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				F94D3C6B1BE2A69A00128330 /* Choregos.xcdatamodel */,
+				F94D3C991BE53E6A00128330 /* Choregos.xcdatamodel */,
 			);
-			currentVersion = F94D3C6B1BE2A69A00128330 /* Choregos.xcdatamodel */;
+			currentVersion = F94D3C991BE53E6A00128330 /* Choregos.xcdatamodel */;
 			path = Choregos.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

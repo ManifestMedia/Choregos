@@ -13,10 +13,46 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var categoryColors: [UIColor] = []
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.categoryColors = [
+            UIColor(red: 164/255, green: 3/255,   blue: 111/255, alpha: 1.0),
+            UIColor(red: 4/255,   green: 139/255, blue: 168/255, alpha: 1.0),
+            UIColor(red: 22/255,  green: 219/255, blue: 147/255, alpha: 1.0),
+            UIColor(red: 239/255, green: 234/255, blue: 90/255, alpha: 1.0),
+            UIColor(red: 242/255, green: 158/255, blue: 76/255, alpha: 1.0),
+            UIColor(red: 175/255, green: 194/255, blue: 213/255, alpha: 1.0),
+            UIColor(red: 107/255, green: 127/255, blue: 215/255, alpha: 1.0),
+            UIColor(red: 208/255, green: 52/255, blue: 53/255, alpha: 1.0),
+        ]
+        
+        if !NSUserDefaults.standardUserDefaults().boolForKey("HasLaunchedOnce") {
+            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "HasLaunchedOnce")
+            NSUserDefaults.standardUserDefaults().synchronize()
+            
+            let categories = [
+                "TRANSPORT",
+                "HOUSING",
+                "BILLS",
+                "TRAVEL",
+                "HOME TECH",
+                "GAMES",
+                "NIGHT OUT",
+                "CONTRABANDS"
+            ]
+            
+            for var i = 0; i < self.categoryColors.count; ++i {
+                let data = [
+                    "name": categories[i],
+                    "isActive": true,
+                    "color": self.categoryColors[i]
+                ]
+                Category.create(withdata: data).save()
+            }
+        }
+        
         return true
     }
 
