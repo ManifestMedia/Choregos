@@ -235,68 +235,43 @@
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" red="0.75686274509803919" green="0.87450980392156863" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="HeaderCell" rowHeight="65" id="Tn6-vL-f74" customClass="ExpensesTableViewHeaderCell" customModule="Choregos" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="1" width="320" height="65"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Tn6-vL-f74" id="RS0-A9-OUx">
-                                    <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL EXPENSES:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kkb-b9-Ks4">
-                                            <rect key="frame" x="8" y="8" width="153" height="21"/>
-                                            <animations/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="153" id="pim-wy-CND"/>
-                                            </constraints>
-                                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
-                                            <color key="textColor" red="0.81568627449999997" green="0.20392156859999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6650,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OeL-uT-EzE">
-                                            <rect key="frame" x="8" y="27" width="210" height="30"/>
-                                            <animations/>
-                                            <color key="backgroundColor" red="0.75686274509999996" green="0.87450980389999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
-                                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
-                                            <color key="textColor" red="0.20784313730000001" green="0.52941176469999995" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fyY-Gv-Vnh">
-                                            <rect key="frame" x="226" y="27" width="86" height="30"/>
-                                            <animations/>
-                                            <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="15"/>
-                                            <state key="normal" title="CLEAR ALL">
-                                                <color key="titleColor" red="0.81568627449999997" green="0.20392156859999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
-                                            </state>
-                                            <connections>
-                                                <action selector="deleteAllExpenses:" destination="Tn6-vL-f74" eventType="touchUpInside" id="O9m-7L-UkG"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="yIB-BC-78e">
+                            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="6650,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5o-Bc-g22">
+                                    <rect key="frame" x="8" y="26" width="304" height="30"/>
                                     <animations/>
-                                    <color key="backgroundColor" red="0.75686274509999996" green="0.87450980389999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
+                                    <color key="textColor" red="0.20784313730000001" green="0.52941176469999995" blue="0.64313725489999995" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TOTAL EXPENSES:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WAS-h0-n0D">
+                                    <rect key="frame" x="8" y="8" width="153" height="21"/>
+                                    <animations/>
                                     <constraints>
-                                        <constraint firstItem="OeL-uT-EzE" firstAttribute="bottom" secondItem="RS0-A9-OUx" secondAttribute="bottomMargin" id="1Zf-QI-voN"/>
-                                        <constraint firstItem="OeL-uT-EzE" firstAttribute="leading" secondItem="RS0-A9-OUx" secondAttribute="leading" constant="8" id="DMf-Wf-62y"/>
-                                        <constraint firstItem="fyY-Gv-Vnh" firstAttribute="top" secondItem="OeL-uT-EzE" secondAttribute="top" id="EiJ-jS-pZt"/>
-                                        <constraint firstItem="OeL-uT-EzE" firstAttribute="leading" secondItem="Kkb-b9-Ks4" secondAttribute="leading" id="GVX-at-eUg"/>
-                                        <constraint firstItem="Kkb-b9-Ks4" firstAttribute="top" secondItem="RS0-A9-OUx" secondAttribute="topMargin" id="OKY-vN-hth"/>
-                                        <constraint firstItem="fyY-Gv-Vnh" firstAttribute="leading" secondItem="OeL-uT-EzE" secondAttribute="trailing" constant="8" symbolic="YES" id="Q6n-bp-f29"/>
-                                        <constraint firstAttribute="bottomMargin" secondItem="Kkb-b9-Ks4" secondAttribute="bottom" constant="28" id="YAB-fS-bWW"/>
-                                        <constraint firstItem="fyY-Gv-Vnh" firstAttribute="trailing" secondItem="RS0-A9-OUx" secondAttribute="trailingMargin" id="aXt-MN-joV"/>
-                                        <constraint firstAttribute="trailing" secondItem="OeL-uT-EzE" secondAttribute="trailing" constant="102" id="auH-Rd-oLS"/>
-                                        <constraint firstItem="OeL-uT-EzE" firstAttribute="top" secondItem="RS0-A9-OUx" secondAttribute="topMargin" constant="19" id="rv6-2q-uvB"/>
-                                        <constraint firstItem="fyY-Gv-Vnh" firstAttribute="bottom" secondItem="OeL-uT-EzE" secondAttribute="bottom" id="v86-db-qcy"/>
+                                        <constraint firstAttribute="width" constant="153" id="HWq-ZO-CzP"/>
                                     </constraints>
-                                </tableViewCellContentView>
-                                <animations/>
-                                <color key="backgroundColor" red="0.75686274509999996" green="0.87450980389999999" blue="0.94117647059999998" alpha="1" colorSpace="calibratedRGB"/>
-                                <connections>
-                                    <outlet property="deleteAllRecordsButton" destination="fyY-Gv-Vnh" id="8MA-8E-E8m"/>
-                                    <outlet property="totalSum" destination="OeL-uT-EzE" id="YBe-sw-D93"/>
-                                </connections>
-                            </tableViewCell>
+                                    <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="13"/>
+                                    <color key="textColor" red="0.81568627449999997" green="0.20392156859999999" blue="0.20784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <animations/>
+                            <color key="backgroundColor" red="0.70588235294117652" green="0.84313725490196079" blue="0.92549019607843142" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="e5o-Bc-g22" firstAttribute="top" secondItem="yIB-BC-78e" secondAttribute="top" constant="27" id="Edr-OW-nCN"/>
+                                <constraint firstItem="WAS-h0-n0D" firstAttribute="top" secondItem="yIB-BC-78e" secondAttribute="topMargin" id="H0M-3l-Bw4"/>
+                                <constraint firstAttribute="trailing" secondItem="e5o-Bc-g22" secondAttribute="trailing" constant="8" id="NPy-dt-EoF"/>
+                                <constraint firstItem="e5o-Bc-g22" firstAttribute="bottom" secondItem="yIB-BC-78e" secondAttribute="bottomMargin" id="QIu-yk-SeH"/>
+                                <constraint firstItem="e5o-Bc-g22" firstAttribute="centerX" secondItem="yIB-BC-78e" secondAttribute="centerX" id="SFE-tZ-0el"/>
+                                <constraint firstItem="e5o-Bc-g22" firstAttribute="leading" secondItem="yIB-BC-78e" secondAttribute="leading" constant="8" id="XHH-sK-137"/>
+                                <constraint firstAttribute="bottom" secondItem="WAS-h0-n0D" secondAttribute="bottom" constant="36" id="fgP-SR-2Ts"/>
+                                <constraint firstItem="e5o-Bc-g22" firstAttribute="leading" secondItem="WAS-h0-n0D" secondAttribute="leading" id="qMX-xP-vFy"/>
+                            </constraints>
+                        </view>
+                        <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExpenseCell" rowHeight="65" id="lz8-4G-DOB" customClass="ExpenseTableViewCell" customModule="Choregos" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="66" width="320" height="65"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -344,6 +319,9 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="" image="ExpensesWhiteIcon" selectedImage="ExpensesWhiteIcon" id="U2G-OV-8pp"/>
+                    <connections>
+                        <outlet property="totalSum" destination="e5o-Bc-g22" id="jNU-iM-7J3"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L55-Hy-vN1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

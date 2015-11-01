@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F9484F011BE6D38500417E2B /* ExpenseTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9484F001BE6D38500417E2B /* ExpenseTableHeaderView.swift */; };
 		F94D3C641BE2A69A00128330 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94D3C631BE2A69A00128330 /* AppDelegate.swift */; };
 		F94D3C691BE2A69A00128330 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C671BE2A69A00128330 /* Main.storyboard */; };
 		F94D3C711BE2A69A00128330 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F94D3C6F1BE2A69A00128330 /* LaunchScreen.storyboard */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F9484F001BE6D38500417E2B /* ExpenseTableHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseTableHeaderView.swift; sourceTree = "<group>"; };
 		F94D3C601BE2A69A00128330 /* Choregos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Choregos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F94D3C631BE2A69A00128330 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F94D3C681BE2A69A00128330 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				F94D3C7C1BE2F60800128330 /* CategoriesController.swift */,
 				F94D3C801BE3B64000128330 /* CategoryCollectionViewCell.swift */,
 				F94D3C841BE3BE9F00128330 /* ExpensesTableViewController.swift */,
+				F9484F001BE6D38500417E2B /* ExpenseTableHeaderView.swift */,
 				F94D3C9F1BE6944200128330 /* ExpensesTableViewHeaderCell.swift */,
 				F94D3C821BE3BE8400128330 /* ExpenseTableViewCell.swift */,
 			);
@@ -181,6 +184,7 @@
 				F94D3C851BE3BE9F00128330 /* ExpensesTableViewController.swift in Sources */,
 				F94D3C831BE3BE8400128330 /* ExpenseTableViewCell.swift in Sources */,
 				F94D3C811BE3B64000128330 /* CategoryCollectionViewCell.swift in Sources */,
+				F9484F011BE6D38500417E2B /* ExpenseTableHeaderView.swift in Sources */,
 				F94D3C791BE2BF0800128330 /* SpendController.swift in Sources */,
 				F94D3C941BE5124D00128330 /* Category.swift in Sources */,
 				F94D3CA01BE6944200128330 /* ExpensesTableViewHeaderCell.swift in Sources */,
@@ -302,7 +306,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.mediamanifest.Choregos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "904a5bc4-faef-4480-8f94-427dc72ace47";
 			};
 			name = Debug;
 		};
@@ -316,7 +320,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = uk.mediamanifest.Choregos;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE = "904a5bc4-faef-4480-8f94-427dc72ace47";
 			};
 			name = Release;
 		};
@@ -339,6 +343,7 @@
 				F94D3C771BE2A69A00128330 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

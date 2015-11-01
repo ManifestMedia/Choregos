@@ -10,17 +10,21 @@ import UIKit
 
 class ExpensesTableViewController: UITableViewController {
     
+    @IBOutlet weak var totalSum: UILabel!
+    
     var expenses: [Expense] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
         expenses = Expense.active()
         self.tableView.backgroundColor = UIColor(red: 193/255, green: 223/255, blue: 240/255, alpha: 1.0)
+        self.tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: tabBarController!.tabBar.frame.size.height, right: 0)
     }
     
     override func viewWillAppear(animated: Bool) {
         expenses = Expense.active()
         self.tableView.reloadData()
+        totalSum.text = String(Expense.total(true)!)
     }
     
     override func prefersStatusBarHidden() -> Bool {
@@ -46,8 +50,7 @@ class ExpensesTableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("ExpenseCell", forIndexPath: indexPath) as! ExpenseTableViewCell
-        let expense: Expense =  expenses[indexPath.row]
-        
+        let expense: Expense =  expenses[indexPath.row]        
         cell.amountLabel.text = expense.amount
         cell.categoryLabel.text = expense.category?.name
         cell.descriptionLabel.text = expense.title
@@ -55,20 +58,10 @@ class ExpensesTableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        let header = tableView.dequeueReusableCellWithIdentifier("HeaderCell") as! ExpensesTableViewHeaderCell
-        header.totalSum.text = String(Expense.total(true)!)
-        return header
-    }
-    
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 65
     }
     
-    override func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return 65
-    }
-
     override func tableView(tableView: UITableView, canEditRowAtIndexPath indexPath: NSIndexPath) -> Bool {
         return true
     }
@@ -80,10 +73,10 @@ class ExpensesTableViewController: UITableViewController {
             expenses.removeAtIndex(indexPath.row)
             expense.remove()
             tableView.reloadData()
+            totalSum.text = String(Expense.total(true)!)
         }
     }
     
-
     /*
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {

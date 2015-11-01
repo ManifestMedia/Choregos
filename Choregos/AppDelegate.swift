@@ -33,22 +33,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             NSUserDefaults.standardUserDefaults().synchronize()
             
             let categories = [
-                "TRANSPORT",
+                "CARS",
                 "HOUSING",
                 "BILLS",
                 "TRAVEL",
                 "HOME TECH",
-                "GAMES",
-                "NIGHT OUT",
-                "CONTRABANDS"
+                "SHOPPING",
+                "TAP TO EDIT",
+                "TAP TO ACTIVATE"
             ]
             
             for var i = 0; i < self.categoryColors.count; ++i {
-                let data = [
+                var data = [
                     "name": categories[i],
                     "isActive": true,
                     "color": self.categoryColors[i]
                 ]
+                
+                if i == 7 {
+                    data["isActive"] = false
+                }
                 Category.create(withdata: data).save()
             }
         }
