@@ -112,7 +112,7 @@
                             <outletCollection property="gestureRecognizers" destination="yit-An-fbf" appends="YES" id="1C6-sK-Dxq"/>
                         </connections>
                     </view>
-                    <tabBarItem key="tabBarItem" image="SpendIconWhite" selectedImage="SpendIconWhite" id="R8l-JE-Je1"/>
+                    <tabBarItem key="tabBarItem" image="Add120" selectedImage="Add120" id="R8l-JE-Je1"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="amountTextField" destination="VTH-3J-yrs" id="CwY-Lz-5Z6"/>
@@ -199,7 +199,7 @@
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
-                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="pMe-e2-vWf">
+                                <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCell" id="pMe-e2-vWf">
                                     <rect key="frame" x="0.0" y="142" width="320" height="0.0"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <animations/>
@@ -215,7 +215,7 @@
                             <constraint firstItem="jGm-ZE-iw3" firstAttribute="leading" secondItem="Zl2-dv-ewS" secondAttribute="leading" id="gzO-bQ-GrY"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="CategoriesIconWhite" selectedImage="CategoriesIconWhite" id="oPJ-4v-jBR"/>
+                    <tabBarItem key="tabBarItem" title="" image="Categories120" selectedImage="Categories120" id="oPJ-4v-jBR"/>
                     <nil key="simulatedStatusBarMetrics"/>
                     <connections>
                         <outlet property="categoriesCollectionView" destination="jGm-ZE-iw3" id="ogy-42-kHO"/>
@@ -239,8 +239,8 @@
                             <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="6650,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5o-Bc-g22">
-                                    <rect key="frame" x="8" y="26" width="304" height="30"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6650,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e5o-Bc-g22">
+                                    <rect key="frame" x="8" y="27" width="304" height="30"/>
                                     <animations/>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                     <fontDescription key="fontDescription" name="ArialMT" family="Arial" pointSize="20"/>
@@ -318,7 +318,7 @@
                             <outlet property="delegate" destination="mmx-9S-lqj" id="xWo-Fn-Ek1"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="" image="ExpensesWhiteIcon" selectedImage="ExpensesWhiteIcon" id="U2G-OV-8pp"/>
+                    <tabBarItem key="tabBarItem" title="" image="List120" selectedImage="List120" id="U2G-OV-8pp"/>
                     <connections>
                         <outlet property="totalSum" destination="e5o-Bc-g22" id="jNU-iM-7J3"/>
                     </connections>
@@ -353,9 +353,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Add120" width="25" height="25"/>
         <image name="AddIcon" width="38" height="38"/>
-        <image name="CategoriesIconWhite" width="22" height="22"/>
-        <image name="ExpensesWhiteIcon" width="22" height="22"/>
-        <image name="SpendIconWhite" width="22" height="22"/>
+        <image name="Categories120" width="25" height="25"/>
+        <image name="List120" width="25" height="25"/>
     </resources>
 </document>
